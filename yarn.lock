@@ -3860,6 +3860,11 @@ chrome-trace-event@^1.0.2:
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
   integrity sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==
 
+chromium-bidi@0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/chromium-bidi/-/chromium-bidi-0.4.3.tgz#40ae4a5409ef3fbeabafb29d5325f3f58cbeea12"
+  integrity sha512-A40H1rdpJqkTdnGhnYDzMhtDdIbkXNFj2wgIfivMXL7LyHFDmBtv1hdyycDhnxtYunbPLDZtTs/n+ZT5j7Vnew==
+
 chrono-node@2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/chrono-node/-/chrono-node-2.5.0.tgz#c4d5f4f4db9d72604a5beb79fdc5fd57be4b212f"
@@ -4923,10 +4928,10 @@ detect-node@^2.0.4:
   resolved "https://registry.yarnpkg.com/detect-node/-/detect-node-2.1.0.tgz#c9c70775a49c3d03bc2c06d9a73be550f978f8b1"
   integrity sha512-T0NIuQpnTvFDATNuHN5roPwSBG83rFsuO+MXXH9/3N1eFbn4wcPjttvjMLEPWJ0RGUYgQE7cGgS3tNxbqCGM7g==
 
-devtools-protocol@0.0.1082910:
-  version "0.0.1082910"
-  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1082910.tgz#d79490dc66ef23eb17a24423c9ce5ce661714a91"
-  integrity sha512-RqoZ2GmqaNxyx+99L/RemY5CkwG9D0WEfOKxekwCRXOGrDCep62ngezEJUVMq6rISYQ+085fJnWDQqGHlxVNww==
+devtools-protocol@0.0.1094867:
+  version "0.0.1094867"
+  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1094867.tgz#2ab93908e9376bd85d4e0604aa2651258f13e374"
+  integrity sha512-pmMDBKiRVjh0uKK6CT1WqZmM3hBVSgD+N2MrgyV1uNizAZMw4tx6i/RTc+/uCsKSCmg0xXx7arCP/OFcIwTsiQ==
 
 dezalgo@^1.0.4:
   version "1.0.4"
@@ -11423,14 +11428,15 @@ pupa@^2.0.1:
   dependencies:
     escape-goat "^2.0.0"
 
-puppeteer-core@19.6.0:
-  version "19.6.0"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-19.6.0.tgz#7f1708a66d6901cd71c28f6e105c9aff73d0ec57"
-  integrity sha512-GvqWdHr9eY/MFR5pXf9o0apnrTmG0hhS7/TtCPfeAvCbaUS1bsLMZWxNGvI/QbviRu4xxi6HrR7VW4x/4esq1Q==
+puppeteer-core@19.7.0:
+  version "19.7.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-19.7.0.tgz#bd069fa15137e1e13e69b23278fbb508465c1955"
+  integrity sha512-BU05W24N+fWudCCeWxv/+R9fnMGmS6HCNPJbieoy0S4yAloVOoVDpOnHV8ZpFTGMPTHQ2EuPyZPWA+idPKO0pw==
   dependencies:
+    chromium-bidi "0.4.3"
     cross-fetch "3.1.5"
     debug "4.3.4"
-    devtools-protocol "0.0.1082910"
+    devtools-protocol "0.0.1094867"
     extract-zip "2.0.1"
     https-proxy-agent "5.0.1"
     proxy-from-env "1.1.0"
@@ -11486,16 +11492,16 @@ puppeteer-extra@3.3.4:
     debug "^4.1.1"
     deepmerge "^4.2.2"
 
-puppeteer@19.6.0:
-  version "19.6.0"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-19.6.0.tgz#89a0bfa7da3db12b40ff9fe6c48cbc0eb149e03b"
-  integrity sha512-KpRjn/bosTWe8xOQ/F5J1UmQ4inR77ADddn8G6MqMPp/y9Tl+7EycXgrjO0/3i/OQfHi5bsvkTKXRkm0ieo/ew==
+puppeteer@19.7.0:
+  version "19.7.0"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-19.7.0.tgz#67fe8ffb11ff1719ba180643b9b2c06116b0d3ef"
+  integrity sha512-ri4XTvTWL09E3L+SNhY9FKRdEOCRhFyyuBppg7D5lk9q4BZKvDWivpjstwmtz5lr8ufxju/jkn9y7uGowISHgw==
   dependencies:
     cosmiconfig "8.0.0"
     https-proxy-agent "5.0.1"
     progress "2.0.3"
     proxy-from-env "1.1.0"
-    puppeteer-core "19.6.0"
+    puppeteer-core "19.7.0"
 
 q@^1.1.2:
   version "1.5.1"
